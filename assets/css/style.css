@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #E3D9D5;
+}
+
+/* .globa__wrapper {
+    width: 100%;
+    overflow: hidden;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+.container {
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
