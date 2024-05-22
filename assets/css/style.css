@@ -39,3 +39,41 @@ h6 {
     margin: 0 auto;
     padding: 0 10px;
 }
+
+
+
+.head__content--box{
+    /* display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+    line-height: 150%; */
+    padding-top: 33px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.logo__box{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.menu__list{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 11%;
+}
+
+
+.head__btn--box{
+    display: flex;
+    justify-content: flex-end;
+    gap: 44px;
+    
+}
+
+.head__btn--two{
+    border: 2px solid #353536;
+    padding: 14px 55px;
+}
