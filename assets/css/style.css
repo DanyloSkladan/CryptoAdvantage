@@ -46,12 +46,12 @@ h6 {
 }
 
 
-.header{
+.header {
     margin-bottom: 151px;
 }
 
 .head__content--box {
-   
+
     padding-top: 33px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,7 +69,7 @@ h6 {
     font-size: 18px;
     color: #110f18;
     font-weight: 500;
-    
+
 }
 
 .logo__box {
@@ -111,7 +111,46 @@ h6 {
 }
 
 
-.top__content--box{
+.top__content--box {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+
+.top__title {
+    font-size: 68px;
+    color: #110f18;
+    margin-bottom: 31px;
+}
+
+.top__text {
+    font-size: 22px;
+    color: #3d4048;
+    margin-bottom: 84px;
+}
+
+.rating__box {
     display: flex;
-    justify-content: space-between;
+
+}
+
+.num {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #110f18;
+}
+
+
+.top__image--back{
+    position: relative;
+    z-index: 1;
+}
+
+.top__image{
+  position: absolute;  
+    
 }
