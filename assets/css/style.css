@@ -112,10 +112,10 @@ h6 {
 
 
 .top__content--box {
-    /* display: flex;
-    justify-content: space-between; */
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+
 }
 
 
@@ -144,13 +144,22 @@ h6 {
     color: #110f18;
 }
 
-
-.top__image--back{
+.content__right{
     position: relative;
-    z-index: 1;
+    width: 100%;
+    height: 100%;
 }
 
-.top__image{
-  position: absolute;  
-    
+
+.top__image--back{
+    position: absolute;
+    z-index: -1;
+    top: -240px;
+    right: -225px;
+}
+
+.top__image {
+   position: absolute;
+   right: -287px;
+   top: -50px;
 }
