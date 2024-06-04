@@ -140,7 +140,7 @@ h6 {
 
 .rating__box {
     display: flex;
-    row-gap: 30px;
+    gap: 30px;
 
 }
 
@@ -172,6 +172,25 @@ h6 {
 }
 
 
+.num__customers--box{
+    display: flex;
+    gap: 47px;
+    position: relative;
+    
+}
+
+
+.one:first-child::after{
+    content: "";
+    position: absolute;
+    right: -20px; /* Положение полосы точно по центру между элементами */
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 2px solid #000000;
+    height: 40px;
+}
+
+
 .customers__text {
     font-weight: 400;
     font-size: 18px;
@@ -185,8 +204,8 @@ h6 {
 }
 
 
- .cust__img--box {
-    position: relative; 
+.cust__img--box {
+    position: relative;
     /* width: max-content; 
     height: max-content;  */
 }
@@ -195,9 +214,9 @@ h6 {
 
 
 .cust__img--box img {
-    position: absolute; 
-   
-} 
+    position: absolute;
+
+}
 
 
 .cust__log1 {
@@ -220,7 +239,8 @@ h6 {
 
 
 .rating__box,
-.num__customers--box{
+.num__customers--box {
+
     display: flex;
     justify-content: center;
 }
