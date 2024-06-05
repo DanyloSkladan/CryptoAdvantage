@@ -214,8 +214,9 @@ h6 {
 }
 
 
-.raiting__shadow--box{
+.raiting__shadow {
     position: absolute;
+    transform: translate(-760px, -440px);
 }
 
 .cust__img--box img {
