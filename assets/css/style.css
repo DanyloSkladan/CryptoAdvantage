@@ -161,6 +161,12 @@ h6 {
 }
 
 
+.top__image--star {
+    position: absolute;
+    transform: translate(490px, -35px);
+   
+}
+
 .top__image--back {
     position: absolute;
     z-index: -1;
@@ -216,7 +222,7 @@ h6 {
 
 .raiting__shadow {
     position: absolute;
-    transform: translate(-760px, -440px);
+    transform: translate(-470px, -323px);
 }
 
 .cust__img--box img {
