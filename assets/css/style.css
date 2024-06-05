@@ -116,6 +116,11 @@ h6 {
 }
 
 
+
+.top__content{
+    margin-bottom: 500px;
+}
+
 .top__content--box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -255,4 +260,14 @@ h6 {
 
     display: flex;
     justify-content: end;
+}
+
+
+
+
+
+
+.company{
+    background-color: #13111a;
+  
 }
