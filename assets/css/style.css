@@ -135,12 +135,14 @@ h6 {
     font-size: 22px;
     color: #3d4048;
     margin-bottom: 84px;
+    line-height: 32px;
     max-width: 80%;
 }
 
 .rating__box {
     display: flex;
     gap: 30px;
+    transform: translate(-74px, 0px)
 
 }
 
@@ -148,6 +150,7 @@ h6 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
+    margin-bottom: 7px;
     color: #110f18;
 }
 
@@ -183,10 +186,10 @@ h6 {
 .one:first-child::after{
     content: "";
     position: absolute;
-    right: -20px; /* Положение полосы точно по центру между элементами */
-    top: 50%;
+    right: 169px; 
+    top: 38%;
     transform: translateY(-50%);
-    border-left: 2px solid #000000;
+    border-left: 2px solid #DAD1CE;
     height: 40px;
 }
 
@@ -211,7 +214,9 @@ h6 {
 }
 
 
-
+.raiting__shadow--box{
+    position: absolute;
+}
 
 .cust__img--box img {
     position: absolute;
@@ -242,5 +247,5 @@ h6 {
 .num__customers--box {
 
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
