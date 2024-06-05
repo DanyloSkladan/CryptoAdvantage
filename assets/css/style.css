@@ -117,8 +117,8 @@ h6 {
 
 
 
-.top__content{
-    margin-bottom: 500px;
+.top__content {
+    margin-bottom: 247px;
 }
 
 .top__content--box {
@@ -148,7 +148,6 @@ h6 {
     display: flex;
     gap: 30px;
     transform: translate(-74px, 0px)
-
 }
 
 .num {
@@ -169,7 +168,7 @@ h6 {
 .top__image--star {
     position: absolute;
     transform: translate(490px, -35px);
-   
+
 }
 
 .top__image--back {
@@ -186,18 +185,18 @@ h6 {
 }
 
 
-.num__customers--box{
+.num__customers--box {
     display: flex;
     gap: 47px;
     position: relative;
-    
+
 }
 
 
-.one:first-child::after{
+.one:first-child::after {
     content: "";
     position: absolute;
-    right: 169px; 
+    right: 169px;
     top: 38%;
     transform: translateY(-50%);
     border-left: 2px solid #DAD1CE;
@@ -267,7 +266,29 @@ h6 {
 
 
 
-.company{
-    background-color: #13111a;
-  
+.company {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #110f18;
+}
+
+
+.company__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-top: 85px;
+    margin-bottom: 63px;
+}
+
+
+.company__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 89px;
 }
