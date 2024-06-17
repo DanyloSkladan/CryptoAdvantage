@@ -167,7 +167,8 @@ h6 {
 
 .top__image--star {
     position: absolute;
-    transform: translate(490px, -35px);
+    right: 40px;
+    transform: translateY(-20px);
 
 }
 
@@ -283,7 +284,7 @@ h6 {
     text-align: center;
     color: #fff;
     margin-top: 85px;
-    margin-bottom: 63px;
+    margin-bottom: 74px;
 }
 
 
