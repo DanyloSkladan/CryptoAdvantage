@@ -146,8 +146,8 @@ h6 {
 
 .rating__box {
     display: flex;
-    gap: 30px;
-    transform: translate(-74px, 0px)
+    gap: 20px;
+    transform: translate(-93px, 0px)
 }
 
 .num {
@@ -199,7 +199,7 @@ h6 {
     position: absolute;
     right: 169px;
     top: 38%;
-    transform: translateY(-50%);
+    transform: translate(-802%, -63%);
     border-left: 2px solid #DAD1CE;
     height: 40px;
 }
@@ -215,8 +215,13 @@ h6 {
 .customers__rating {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
+
+.stars__img{
+    line-height: 30px;
+}
 
 .cust__img--box {
     position: relative;
@@ -243,12 +248,12 @@ h6 {
 
 .cust__log2 {
     z-index: 2;
-    transform: translate(-114px, 0px);
+    transform: translate(-120px, 0px);
 }
 
 .cust__log3 {
     z-index: 1;
-    transform: translate(-74px, 0px);
+    transform: translate(-78px, 0px);
 }
 
 
