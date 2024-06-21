@@ -387,6 +387,12 @@ h6 {
 
 
 @media (max-width: 765px) {
+
+
+    .mobile__list {
+        display: none;
+    }
+
     .header__mobile-btn {
         display: flex;
     }
