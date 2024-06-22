@@ -56,13 +56,18 @@ h6 {
     margin-bottom: 151px;
 }
 
-.head__content--box {
 
-    /* padding-top: 33px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+.header__content--menu {
     display: flex;
-    justify-content: space-between;
+    gap: 10%;
+}
+
+
+.head__content--box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* display: flex;
+    justify-content: space-between; */
 
 }
 
