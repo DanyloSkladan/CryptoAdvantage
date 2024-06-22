@@ -390,10 +390,14 @@ h6 {
 
 
     .mobile__list {
-        display: none;
+        /* display: none; */
+        flex-direction: column;
+        padding: 100px 100px;
+        background-color: #3d4048;
     }
 
     .header__mobile-btn {
         display: flex;
+
     }
 }
