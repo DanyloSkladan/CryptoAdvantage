@@ -394,10 +394,16 @@ h6 {
 @media (max-width: 765px) {
 
 
+    .header__content--menu{
+        /* display: none; */
+        flex-direction: column;
+        /* padding: 35px 34px; */
+        background-color: #3d4048;
+    }
     .mobile__list {
         /* display: none; */
         flex-direction: column;
-        padding: 100px 100px;
+        /* padding: 35px 34px; */
         background-color: #3d4048;
     }
 
