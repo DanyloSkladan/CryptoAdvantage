@@ -64,10 +64,10 @@ h6 {
 
 
 .head__content--box {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    /* display: flex;
-    justify-content: space-between; */
+    /* display: grid;
+    grid-template-columns: 1fr 2fr; */
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -146,7 +146,7 @@ h6 {
 }
 
 
-.header__mobile-btn span{
+.header__mobile-btn span {
     height: 1px;
     background-color: #353536;
     width: 100%;
@@ -394,16 +394,23 @@ h6 {
 @media (max-width: 765px) {
 
 
-    .header__content--menu{
-        /* display: none; */
+    .header__content--menu {
         flex-direction: column;
-        /* padding: 35px 34px; */
         background-color: #3d4048;
+        position: absolute;
+        right: 0;
+        transform: translateY( 40px);
+        top: -200%;
+
     }
+
+    .header__content--menu.menu--open{
+        top: 0;
+    }
+
     .mobile__list {
-        /* display: none; */
+        width: 180px;
         flex-direction: column;
-        /* padding: 35px 34px; */
         background-color: #3d4048;
     }
 

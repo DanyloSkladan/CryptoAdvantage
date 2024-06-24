@@ -1,8 +1,6 @@
 const menuBtn = document.querySelector('.header__mobile-btn');
-const menuMobile = document.querySelectorAll('.mobile__list');
+const menuContent = document.querySelector('.header__content--menu');
 
 menuBtn.addEventListener('click', () => {
-    menuMobile.forEach(menu => {
-        menu.classList.toggle('menu--open');
-    });
+    menuContent.classList.toggle('menu--open');
 });
