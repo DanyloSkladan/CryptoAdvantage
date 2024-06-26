@@ -60,6 +60,7 @@ h6 {
 .header__content--menu {
     display: flex;
     gap: 230px;
+    
 }
 
 
@@ -92,7 +93,7 @@ h6 {
     gap: 10px;
 }
 
-.logo__container{
+.logo__container {
     line-height: 45px;
 }
 
@@ -374,6 +375,12 @@ h6 {
 /* ADAPTIVE */
 
 
+@media (max-width: 1100px){
+    .header__content--menu{
+        gap: 160px;
+    }
+}
+
 @media (max-width: 980px) {
 
     .menu__list {
@@ -384,6 +391,10 @@ h6 {
     gap: 25px;
 } */
 
+    .header__content--menu {
+        gap: 120px;
+    }
+
 }
 
 
@@ -391,6 +402,10 @@ h6 {
     .menu__list {
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+    .header__content--menu {
+        gap: 50px;
     }
 }
 
@@ -400,9 +415,9 @@ h6 {
 
 
     .global__wrapper {
-        position: relative; 
-        min-height: 5000px; 
-        overflow-x: hidden; 
+        position: relative;
+        min-height: 5000px;
+        overflow-x: hidden;
     }
 
     .header__content--menu {
@@ -410,22 +425,28 @@ h6 {
         position: absolute;
         right: 0;
         top: 70px;
-        transform: translateX( 100%);
+        transform: translateX(100%);
         transition: transform .3s ease;
         border: 2px solid #110f18;
-        padding: 1px 1px 1px 1px;
+        padding: 20px 0px 20px 20px;
 
     }
 
-    .header__content--menu.menu--open{
-        
-        transform: translateX( 0);
+
+    .head__btn--box {
+        gap: 20px;
+    }
+
+
+    .header__content--menu.menu--open {
+
+        transform: translateX(0);
     }
 
     .mobile__list {
         width: 180px;
         flex-direction: column;
-        
+
     }
 
     .header__mobile-btn {
@@ -436,6 +457,11 @@ h6 {
 
     .header__content--menu {
         display: flex;
-        gap: 0px;
+        gap: 17px;
     }
+
+    .head__btn--one {
+        padding-left: 6px;
+    }
+
 }
