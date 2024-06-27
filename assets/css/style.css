@@ -564,12 +564,12 @@ h6 {
     max-width: 400px;
 }
 
-.experience__item img{
-    align-self: flex-start; 
+.experience__item img {
+    align-self: flex-start;
     transform: translateY(5px);
 }
 
-.experience{
+.experience {
     padding-top: 170px;
     padding-bottom: 150px;
 }
@@ -577,8 +577,9 @@ h6 {
 
 .experience__right {
     position: relative;
-   
+
 }
+
 .experience_video {
     position: absolute;
     top: 50%;
@@ -586,19 +587,45 @@ h6 {
     transform: translate(-50%, -100%);
 }
 
-    
 
 
 
 
 
 
+.delivering__item {
+    display: flex;
+    gap: 20px;
+}
+
+.delvering__content b {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 155%;
+    color: #13111a;
+}
 
 
 
 
+.delvering__descr {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #837a76;
+    max-width: 527px;
+}
 
 
+.delivering__descr--box{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.delivering__images{
+    align-self: flex-start;
+}
 
 
 
