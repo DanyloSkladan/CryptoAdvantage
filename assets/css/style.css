@@ -631,6 +631,12 @@ h6 {
 
 
 
+
+.stоries{
+    padding-top: 117px;
+    padding-bottom: ;
+}
+
 .stories__title {
     display: flex;
     justify-content: center;
@@ -640,9 +646,67 @@ h6 {
     text-align: center;
     color: #110f18;
     max-width: 1230px;
+    margin-bottom: 84px;
 }
 
 
+.stories__content--box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 36px;
+    padding-bottom: 127px;
+}
+
+.stories__nema--box {
+    display: flex;
+}
+
+
+.stries__name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 155%;
+    color: #13111a;
+}
+
+.stories__mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154%;
+    color: #989898;
+}
+
+.stories__nema--box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 34px;
+}
+
+.stories__subtitle {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 155%;
+    color: #13111a;
+    margin-bottom: 14px;
+}
+
+
+.stories__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 154%;
+    color: #0e0d16;
+}
+
+
+.stories__item{
+    background-color: #fffdf5;
+    padding-top: 35px;
+    padding-left: 33px;
+    padding-right: 40px;
+    padding-bottom: 74px;
+
+}
 
 
 
