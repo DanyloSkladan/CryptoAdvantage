@@ -351,7 +351,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 89px;
-    
+
 }
 
 
@@ -619,15 +619,51 @@ h6 {
 }
 
 
-.delivering__descr--box{
+.delivering__descr--box {
     display: flex;
     flex-direction: column;
     gap: 21px;
 }
 
-.delivering__images{
+.delivering__images {
     align-self: flex-start;
 }
+
+
+
+.stories__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    color: #110f18;
+    max-width: 1230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
