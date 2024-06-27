@@ -328,7 +328,8 @@ h6 {
 .company {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #110f18;
+    margin-bottom: 177px;
+    background: #110f18;
 }
 
 
@@ -347,9 +348,10 @@ h6 {
 
 
 .company__box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 89px;
+    
 }
 
 
