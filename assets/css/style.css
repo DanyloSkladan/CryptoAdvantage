@@ -369,16 +369,20 @@ h6 {
 .features__content--box {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-row-gap: 137px; 
+    grid-column-gap: 154px;
 }
 
 .features__item {
     display: flex;
+    gap: 41px;
 }
 
 .features__subtitle {
     font-weight: 500;
     font-size: 28px;
     color: #110f18;
+    margin-bottom: 15px;
 }
 
 
@@ -387,6 +391,13 @@ h6 {
     font-size: 21px;
     line-height: 160%;
     color: #5f6167;
+    max-width: 375px;
+}
+
+.features__item img {
+    max-width: 77px;
+    transform: translateY(-60px);
+    
 }
 
 
