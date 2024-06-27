@@ -354,6 +354,40 @@ h6 {
 
 
 
+.features__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 100%;
+    text-align: center;
+    color: #110f18;
+    margin-bottom: 138px;
+}
+
+
+.features__content--box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features__item {
+    display: flex;
+}
+
+.features__subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    color: #110f18;
+}
+
+
+.features__text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: #5f6167;
+}
 
 
 
@@ -394,12 +428,12 @@ h6 {
         /* max-width: 700px; */
     }
 
-    .top__content--box{
+    .top__content--box {
         gap: 100px;
     }
 
 
-    .top__title{
+    .top__title {
         font-size: 60px;
     }
 
