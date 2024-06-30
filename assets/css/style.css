@@ -772,6 +772,20 @@ h6 {
 
 
 
+.footer__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 195px;
+    padding-bottom: 450px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 118%;
+    letter-spacing: 0.02em;
+    color: #000;
+
+}
+
+
 
 
 
